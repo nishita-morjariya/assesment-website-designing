@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page </title>
+    <!--bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- js file -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!--icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- css file -->
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- contact us page -->
+
+    <h1 class="mt-2 pt-2">CONTACT US </h1>
+    <hr>
+    <div class="row bg-light text-dark p-5 mt-5">
+        <div class="col-md-4 fs-2">
+            <p>ADDRESS: <br>
+            Saint Marco Street, 6th <br>
+        floor, Tokyo, Japan, 123456. </p>
+        </div>
+        <div class="col-md-4 fs-2">
+            <p class="text-danger text-left"><i class="bi bi-telephone"></i> +91 1234567890 </p>
+            <p class="text-primary text-left"> <i class="bi bi-envelope"></i>example@gmail.com</p>
+        </div>
+        <div class="col-md-4 text-danger fs-1 text-center">
+            <i class="bi bi-geo-alt-fill"></i>
+        </div>
+    </div>
+    <div class="row bg-light text-dark mt-5 p-5">
+        <div class="col-md-6">
+            <form action="form-control">
+                <input type="text" placeholder="Name: " class="fs-1 text-secondary mt-4 ms-1 me-5" max="10" min="3" required> 
+                <input type="text" placeholder="Company : " class="text-secondary fs-1 mt-4" maxlength="10" minlength="1" required><br>
+                <input type="email" placeholder="Email: " class="text-secondary fs-1 mt-4 me-5" required>
+                <input type="number" placeholder="Mobile : " class="text-secondary fs-1 mt-4" max="10" min="10" required><br>
+                <label for="textarea" class="form-label"></label>
+                <textarea class="form-control border border-dark fs-1" id="textarea" rows="5" placeholder="Message here: " required></textarea>
+                <button class="btn btn-outline-secondary btn btn-lg bg-danger text-light mt-5" type="button" id="button">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6799314942928!2d70.77238027383987!3d22.290111043267405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca248c77c099%3A0xdf5ac10af64ac8ee!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1734182995341!5m2!1sen!2sin" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+            <a href="#"><i class="bi bi-facebook fs-2 mt-5 p-1 bg-primary text-light"></i></a> <a href="#"><i class="bi bi-twitter fs-2 mt-5 ms-2 p-1 bg-primary text-dark"></i></a><a href="#"><i class="bi bi-linkedin fs-2 mt-5 p-1 ms-2 bg-primary text-light"></i></a><a href="#"><i class="bi bi-github fs-2 mt-5 p-1 ms-2 bg-primary text-light"></i></a>
+
+        </div>
+    </div>
+</body>
+</html>
